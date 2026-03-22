@@ -2,7 +2,7 @@ package main
 
 import (
 	"Iam/Interface"
-	
+	"fmt"
 )
 
 func main() {
@@ -13,4 +13,6 @@ func main() {
 	Interface.Use(&cirkle)
 	Interface.Use(&rectangle)
 	Interface.Use(&box)
+
+	fmt.Println("Вношу изменения в репозиторий...")
 }
